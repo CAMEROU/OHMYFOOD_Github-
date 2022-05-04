@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Shrikhand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&family=Shrikhand&display=swap');
+*,
+::before,
+::after{
+    box-sizing: border-box;
+    
+}
+
+body{
+    margin: 1px;
+}
+header{
+    font-family: "Shrikhand";
+    text-align: center;
+    box-shadow: 0 0 0.3rem rgb(165, 165, 161);
+    padding: 0.5rem;
+}
