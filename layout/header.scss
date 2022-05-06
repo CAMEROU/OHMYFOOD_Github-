@@ -1,0 +1,25 @@
+
+header{
+    font-family: "Shrikhand";
+    text-align: center;
+    position: relative;
+    box-shadow: 0 0 0.5rem rgb(165, 165, 161);
+    padding: 0.5rem;
+}
+
+.location{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 150%;
+    background-color: #f3f3f3;
+    padding: 0.5rem;
+    gap: 0.5rem;  
+
+/*.bi-geo-alt-fill,*/ i{
+    
+font-size: 0.9rem;
+}
+}
+

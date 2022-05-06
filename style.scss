@@ -17,6 +17,9 @@ body{
 .ohmy-logo, img{
     width: 50%;
 }
+@import "./Sass/base.css";
+@import" ./sass/layout/header";
+
 header{
     font-family: "Shrikhand";
     text-align: center;
@@ -33,16 +36,13 @@ header{
     font-size: 150%;
     background-color: #f3f3f3;
     padding: 0.5rem;
-    gap: 0.5rem;
-    
-    
-}
+    gap: 0.5rem;  
 
-.bi-geo-alt-fill, i{
+/*.bi-geo-alt-fill,*/ i{
     
 font-size: 0.9rem;
 }
-
+}
 #decouverte{
     text-align: center;
     font-size: 1rem;
