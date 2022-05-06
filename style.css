@@ -14,8 +14,8 @@ body{
 }
 
 
-.ohmy-logo{
-    font-size: 120%;
+.ohmy-logo, img{
+    width: 50%;
 }
 header{
     font-family: "Shrikhand";
@@ -32,15 +32,15 @@ header{
     text-align: center;
     font-size: 150%;
     background-color: #f3f3f3;
-    padding: 0.1rem;
-    gap: 2rem;
+    padding: 0.5rem;
+    gap: 0.5rem;
     
     
 }
 
 .bi-geo-alt-fill, i{
     
-font-size: 2rem;
+font-size: 0.9rem;
 }
 
 #decouverte{
@@ -48,19 +48,39 @@ font-size: 2rem;
     font-size: 1rem;
 }
 h1{
-    font-size: 22px;
+    font-size: 1rem;
 }
 
-.choix{
 
+#decouverte h2{
+    font-size: 2rem;
 }
 
-.explorez{
-    text-align: center;
-    font-size: 25px;
+#decouverte p{
+font-size: 1.2rem;
 }
 
-button{
+ button{
+border: none;
+border-radius: 2rem;
+background-image: linear-gradient(#FF79DA, #9356DC);
+color: white;
+padding: 0.7rem;
+margin-top: 0.5rem;
+transition: transform 160ms;
+transform: all;
+box-shadow: 2px 1px 10px -2px #0000;
 
-border-radius: 100rem;
+}
+#decouverte button:hover{
+    opacity: 0.7;
+    transform: scale(1.03);
+    
+}
+
+.gradient{
+    width: 90wh;
+    height: 50vh;
+    border: 1px solid blue;
+
 }
